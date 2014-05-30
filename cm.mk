@@ -16,7 +16,7 @@
 $(call inherit-product, device/semc/anzu/full_anzu.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+$(call inherit-product, vendor/adems/config/common_mini_phone.mk)
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
